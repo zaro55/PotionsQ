@@ -1,0 +1,14 @@
+# PotionsQ – Build
+
+Windows:
+1. Falls `gradlew.bat` noch nicht vorhanden ist, einmal `setup-wrapper.bat` ausführen.
+2. Danach `build.bat` doppelklicken.
+
+Oder im Terminal:
+    gradlew.bat build
+
+Die fertige JAR befindet sich danach in:
+    build/libs/
+
+Hinweis:
+Der Gradle Wrapper kann nur erzeugt werden, wenn Gradle einmal auf dem PC vorhanden ist.
