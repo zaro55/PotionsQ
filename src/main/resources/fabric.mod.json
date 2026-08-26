@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "potionsq",
+  "version": "${version}",
+  "name": "PotionsQ",
+  "description": "Press Q while hovering over a potion in an open inventory to throw it without moving it to the hotbar.",
+  "authors": ["Zaro"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.zaro.potionsq.PotionsQClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
