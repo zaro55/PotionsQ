@@ -21,11 +21,11 @@ jobs:
           java-version: "21"
           distribution: "temurin"
 
-      - name: Install Gradle
+      - name: Install Gradle 9.2
         run: |
-          curl -L https://services.gradle.org/distributions/gradle-8.12-bin.zip -o gradle.zip
+          curl -L https://services.gradle.org/distributions/gradle-9.2-bin.zip -o gradle.zip
           unzip -q gradle.zip -d "$HOME"
-          echo "$HOME/gradle-8.12/bin" >> "$GITHUB_PATH"
+          echo "$HOME/gradle-9.2/bin" >> "$GITHUB_PATH"
 
       - name: Build JAR
         run: gradle build --no-daemon
